@@ -1,0 +1,231 @@
+@media screen and (max-width: 800px) {
+    #navbar{
+        position: absolute;
+        font-size: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    #liste-navbar {
+        list-style-type: none;
+    }
+    .lien-navbar {
+        position: absolute;
+        display: none;
+        color: white;
+        text-decoration: none;
+        margin-left:20px ;
+    }
+    #propos{
+        top: 20px;
+    }
+    #competences{
+        top: 50px;
+    }
+    #experiences{
+        top: 80px;
+    }
+    #contact{
+        top: 110px;
+    }
+    #menuBurger{
+        position: absolute;
+        width: 45px;
+        right: 10px;
+        top: 10px;
+        background-color: transparent;
+        border: none;
+    }
+    .bar{
+        height: 2.5px;
+        background-color: white;
+        margin-top: 5px;
+    }
+    #body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .container-perso {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .titre {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 100;
+        text-decoration: underline;
+        text-decoration-color: dodgerblue;
+    }
+
+    .desc-perso {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .separateur {
+        height: 300px;
+        width: 100%;
+        min-height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    #container-un {
+        color: white;
+        text-align: center;
+        background-image: url('../images/fond-accueil.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px;
+        max-height: 400px;
+    }
+
+    #titreNom {
+        margin-top: 140px;
+        font-size: 40px;
+    }
+
+    #separateurNom {
+        background-color: white;
+        height: 4px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+    }
+
+    #descriptionNom {
+        font-size: 20px;
+        font-style: italic;
+    }
+
+
+    #descriptionPropos {
+        font-size: 20px;
+        text-align: justify;
+        word-spacing: 2px;
+    }
+
+    .important {
+        color: dodgerblue;
+        font-style: italic;
+        font-size: 22px;
+    }
+
+
+    #separateur1 {
+        background-image: url("../images/ordinateur.jpg");
+    }
+
+
+
+    #container-competences{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .competences-gauche{
+        flex: 1;
+    }
+    .competences-droite{
+        flex: 1;
+    }
+    .ul-competences{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .li-competences{
+        margin-top: 20px;
+    }
+    .titre-competences{
+        font-size: 24px;
+        color: dodgerblue;
+    }
+    @media screen and (min-width:660px){
+        #container-competences{
+            flex-direction: row;
+        }
+        .li-competences{
+            margin-top: 0px;
+            height: 150px;
+        }
+    }
+
+
+    #separateur2 {
+        background-image: url("../images/code.jpg");
+    }
+
+
+
+    #container-formation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formation {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20px;
+        margin-top: 40px;
+        border-left: 2px solid black;
+        height: 150px;
+    }
+
+    .titre-formation {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .lien-formation {
+        font-size: 18px;
+        color: dodgerblue;
+    }
+
+
+    #separateur3 {
+        background-image: url('../images/reunion.jpg');
+    }
+
+
+    #container-contact {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #contact-listes {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #planGoogle {
+        border: 3px solid dodgerblue;
+        border-radius: 5px;
+        width: 100%;
+        height: 250px;
+    }
+
+    @media screen and (min-width: 450px) {
+        #planGoogle {
+            height: 400px;
+        }
+    }
+
+
+
+
+    #footer {
+        background-color: dodgerblue;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+}

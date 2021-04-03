@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+*,::before,::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Fauna One', serif;
+    font-weight: 100;
+}
+@media screen and (min-width: 1025px) {
+#navbar{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+}
+#liste-navbar{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px;
+}
+.lien-navbar{
+        color: white;
+        text-decoration: none;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.container-perso{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.titre{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+}
+.desc-perso{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.separateur{
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container-deux{
+    margin-top: 1075px;
+}
+
+#container-un{
+    color: white;
+    text-align: center;
+    background-image: url('../images/fond-accueil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    height: 980px;
+    position: absolute;
+    width: 100%;
+}
+#titreNom{
+    margin-top: 350px;
+    font-size: 80px;
+}
+#separateurNom{
+    background-color: white;
+    height: 8px;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 40px;
+}
+#descriptionNom{
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+#descriptionPropos{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.important{
+    color: dodgerblue;
+    font-style: italic;
+    font-size: 24px;
+}
+#separateur1{
+    background-image: url("../images/ordinateur.jpg");
+}
+
+
+#container-competences{
+    display: flex;
+    justify-content: center;
+    margin-left: 27%;
+    margin-right: 20%;
+}
+.competences-gauche{
+    flex: 1;
+}
+.competences-droite{
+    flex: 1;
+}
+.ul-competences{
+    font-size: 20px;
+    text-align: justify;
+}
+.li-competences{
+    height: 150px;
+}
+.titre-competences{
+    font-size: 24px;
+    color: dodgerblue;
+}
+
+#separateur2{
+    background-image: url("../images/code.jpg");
+}
+
+#container-formation{
+    display: flex;
+    margin-top: 80px;
+}
+.formation{
+    text-align: left;
+    border-left: 2px solid black;
+    padding-left: 20px;
+    height: 150px;
+    margin-left: 200px;
+}
+.titre-formation{
+    font-size: 28px;
+}
+.lien-formation{
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+
+#separateur3{
+    background-image: url('../images/reunion.jpg');
+}
+
+
+#container-contact{
+    display: flex;
+}
+#contact-listes{
+    margin-left: 25%;
+    text-align: justify;
+    font-size: 30px;
+    padding: 20px;
+    height: 300px;
+    margin-top: 80px;
+}
+#contact-google{
+    margin-left: 5%;
+}
+#planGoogle{
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+}
+
+
+
+#footer{
+    background-color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+}
